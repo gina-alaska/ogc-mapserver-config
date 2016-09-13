@@ -1,0 +1,73 @@
+LAYER
+	 name PREABOVE.BEECHEY.LANDSAT.CLASSIFIED 
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/preabove/beechey/preabove.beechey.utm6.2013.tif"
+	 PROJECTION
+		"proj=utm"
+		"zone=6"
+		"datum=WGS84"
+		"units=m"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 GROUP "Prudhoe_Bay"
+	 METADATA
+		 WMS_TITLE "Beechey Point 1979 Classified Landsat"
+		 WMS_ABSTRACT "Beechey Point Land Cover Classification: CRREL Report 87-5"
+		 "wms_extent" "384951.0 7765416.0 500951.0 7880416.0"
+	 END
+	 
+	 CLASS
+                NAME "Water"
+                OUTLINECOLOR 0 0 0
+                COLOR 115 178 255
+                SYMBOL 0
+		TEXT "HELLO"
+         END
+
+	 CLASS
+                NAME "Wet herbaceous tundra"
+                OUTLINECOLOR 0 0 0
+                COLOR 56 168 1
+                SYMBOL 0
+         END
+
+	 CLASS
+                NAME "Moist or dry herbaceous tundra"
+                OUTLINECOLOR 0 0 0
+                COLOR 255 235 175
+                SYMBOL 0
+         END
+
+	 CLASS
+                NAME "Moist herbaceous, mixed-shrub tundra"
+                OUTLINECOLOR 0 0 0
+                COLOR 168 112 1 
+                SYMBOL 0
+         END
+
+	 CLASS
+                NAME "Shrubland"
+                OUTLINECOLOR 0 0 0
+                COLOR 255 1 1 
+                SYMBOL 0
+         END
+
+	 CLASS
+                NAME "Sparse vegetation"
+                OUTLINECOLOR 0 0 0
+                COLOR 255 127 127
+                SYMBOL 0
+         END
+
+	 CLASS
+                NAME "Barren"
+                OUTLINECOLOR 0 0 0
+                COLOR 104 104 104
+                SYMBOL 0
+         END
+END

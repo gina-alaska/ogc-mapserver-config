@@ -1,0 +1,29 @@
+LAYER
+	 name AEA.SUWA.RIVERFLOW.2013-9.RGB
+	 type raster
+	 status on
+	 OFFSITE 255 255 255
+	 TILEINDEX "/www/ogc/apps/data/aea/suwa/riverflow/indexs/AEA.SUWA.RiverFlow.2013-9.shp"
+	 TILEITEM "LOCATION"
+	 PROJECTION
+		"proj=tmerc"
+		"lat_0=54"
+		"lon_0=-150"
+		"k=0.9999"
+		"x_0=500000.0000000001"
+		"y_0=0"
+		"datum=NAD83"
+		"units=us-ft"
+		"no_defs"
+	 END
+ 	 
+	 GROUP "RiverFlow"
+
+	 PROCESSING "BANDS=1,2,3"
+
+	 METADATA
+		 WMS_TITLE "AEA SuWa RGB RiverFlow September 2013"
+		 WMS_ABSTRACT "One foot full color ortho imagery covering sections of the Susitna River Basin during High-Flow September 2013.  Intended for geomorphological study."
+	 	 "wms_extent" "1495000.0 2612000.0 2125000.0 3262000.0"
+	 END
+END

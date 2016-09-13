@@ -1,0 +1,7 @@
+#for acuasi imagery - data in UTM6 - non-restricted datasets - mjs
+# url is /acuasi
+
+MAP
+	include "defaults/acuasi.wms.default.includes.map"
+	include "layers/acuasi/ortho/32606/ACUASI.FTRICH.ORTHO.2014.RGB.layer.map"
+END

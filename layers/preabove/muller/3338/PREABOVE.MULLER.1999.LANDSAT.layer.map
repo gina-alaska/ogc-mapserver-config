@@ -1,0 +1,99 @@
+LAYER
+	 name PREABOVE.MULLER.LANDSAT.LAND_COVER
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/preabove/muller/preabove.muller.aa83.1999.tif"
+	 PROJECTION
+		"proj=aea"
+		"lat_1=55"
+		"lat_2=65"
+		"lat_0=50"
+		"lon_0=-154"
+		"x_0=0"
+		"y_0=0"
+		"ellps=GRS80"
+		"towgs84=0,0,0,0,0,0,0"
+		"units=m"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 GROUP "Arctic_Alaska"
+	 METADATA
+		 WMS_TITLE "Muller Land Cover"
+		 WMS_ABSTRACT "Landsat MSS Land Cover Data per 1999 publication by Muller"
+		 "wms_extent" "-566713.4394754043 1991048.6402128364 566818.2788904109 2438143.68025423"
+	 END
+	 
+ 	 CLASS
+                NAME "Shadows"
+                OUTLINECOLOR 0 0 0
+                COLOR 1 1 1
+                SYMBOL 0
+         END
+
+	 CLASS
+                NAME "Moist Graminoid, Prostrate-shrub Tundra"
+                OUTLINECOLOR 0 0 0
+                COLOR 255 211 128
+                SYMBOL 0
+         END
+	
+	  CLASS
+                NAME "Moist Dwarf-shrub, Tussock-graminoid Tundra"
+                OUTLINECOLOR 0 0 0
+                COLOR 255 255 191
+                SYMBOL 0
+         END
+
+	  CLASS
+                NAME "Moist Graminoid, Prostrate-shrub Tundra"
+                OUTLINECOLOR 0 0 0
+                COLOR 255 211 128
+                SYMBOL 0
+         END
+
+	  CLASS
+                NAME "Moist Low-shrub Tundra and Other Shrublands"
+                OUTLINECOLOR 0 0 0
+                COLOR 56 167 0
+                SYMBOL 0
+         END
+
+	  CLASS
+                NAME "Wet Graminoid Tundra"
+                OUTLINECOLOR 0 0 0
+                COLOR 114 223 254
+                SYMBOL 0
+         END
+
+	 CLASS
+                NAME "Water"
+                OUTLINECOLOR 0 0 0
+                COLOR 1 77 167
+                SYMBOL 0
+         END
+
+	 CLASS
+                NAME "Clouds and Ice"
+                OUTLINECOLOR 0 0 0
+                COLOR 255 255 155
+                SYMBOL 0
+         END
+
+	 CLASS
+                NAME "Dry Prostrate-shrub Tundra and Barrens"
+                OUTLINECOLOR 0 0 0
+                COLOR 178 178 178
+                SYMBOL 0
+         END
+
+	 CLASS
+                NAME "Moist Tussock-graminoid, Dwarf-shrub Tundra"
+                OUTLINECOLOR 0 0 0
+                COLOR 255 255 1
+                SYMBOL 0
+         END
+END

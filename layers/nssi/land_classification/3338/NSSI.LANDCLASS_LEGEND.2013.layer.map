@@ -1,0 +1,197 @@
+LAYER
+	 name NSSI.LANDCLASS_LEGEND.2013.test
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/gina/nssi/nssi.landcoverclass.aa.2013.tif"
+	 PROJECTION
+		"proj=aea"
+		"lat_1=55"
+		"lat_2=65"
+		"lat_0=50"
+		"lon_0=-154"
+		"x_0=0"
+		"y_0=0"
+		"ellps=GRS80"
+		"towgs84=0,0,0,0,0,0,0"
+		"units=m"
+		"no_defs"
+	 END
+	 GROUP Land_Classification_Maps
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 METADATA
+		 WMS_TITLE "NSSI Land Classification Legend Map 2013"
+		 WMS_ABSTRACT "test"
+		 "wms_extent" "-531315.0000000008 2005064.9999999974 533744.9999999997 2380005.000000005"
+	 END
+	 
+	 CLASS
+	        NAME "Tussock Tundra"
+		OUTLINECOLOR 0 0 0
+		COLOR 168 168 1
+		SYMBOL 0
+	 END
+	
+	 CLASS
+	        NAME "Tussock Shrub Tundra"
+		OUTLINECOLOR 0 0 0
+		COLOR 79 89 48
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Mesic Sedge-Dwarf Shrub Tundra"
+		OUTLINECOLOR 0 0 0
+		COLOR 112 186 69
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Dwarf Shrub - Dryas"
+		OUTLINECOLOR 0 0 0
+		COLOR 247 196 247
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Dwarf Shrub - Other"
+		OUTLINECOLOR 0 0 0
+		COLOR 255 115 222
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Birch Ericaceous Low Shrub"
+		OUTLINECOLOR 0 0 0
+		COLOR 255 189 138
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Low-Tall Willow"
+		OUTLINECOLOR 0 0 0
+		COLOR 255 0 0
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Alder"
+		OUTLINECOLOR 0 0 0
+		COLOR 166 0 0
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Marine Beach/Beach Meadow"
+		OUTLINECOLOR 0 0 0
+		COLOR 255 255 171
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Coastal Marsh"
+		OUTLINECOLOR 0 0 0
+		COLOR 161 33 240
+		SYMBOL 0
+	 END
+	
+	 CLASS
+	        NAME "Open Needleleaf"
+		OUTLINECOLOR 0 0 0
+		COLOR 0 99 0
+		SYMBOL 0
+	 END
+	
+	 CLASS
+	        NAME "Woodland Needleleaf"
+		OUTLINECOLOR 0 0 0
+		COLOR 0 99 0
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Open Mixed Ndl/Decid"
+		OUTLINECOLOR 0 0 0
+		COLOR 176 48 97
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Deciduous"
+		OUTLINECOLOR 0 0 0
+		COLOR 214 138 0
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Ice / Snow"
+		OUTLINECOLOR 0 0 0
+		COLOR 199 255 255
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Burned Area"
+		OUTLINECOLOR 0 0 0
+		COLOR 79 41 23
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Bare Ground"
+		OUTLINECOLOR 0 0 0
+		COLOR 212 212 212
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Sparsely Vegetated"
+		OUTLINECOLOR 0 0 0
+		COLOR 158 158 158
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Open Water"
+		OUTLINECOLOR 0 0 0
+		COLOR 0 54 122
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "FWM: Arctophila Fulva"
+		OUTLINECOLOR 0 0 0
+		COLOR 0 255 255
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "FWM: Carex Aquatillis"
+		OUTLINECOLOR 0 0 0
+		COLOR 92 92 255
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Wet Sedge"
+		OUTLINECOLOR 0 0 0
+		COLOR 171 227 168
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Wet Sedge - Sphagnum"
+		OUTLINECOLOR 0 0 0
+		COLOR 255 0 255
+		SYMBOL 0
+	 END
+
+	 CLASS
+	        NAME "Mesic Herbaceous"
+		OUTLINECOLOR 0 0 0
+		COLOR 255 255 171
+		SYMBOL 0
+	 END
+END

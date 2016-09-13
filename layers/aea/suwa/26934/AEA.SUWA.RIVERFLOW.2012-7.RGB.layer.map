@@ -1,0 +1,30 @@
+LAYER
+	 name AEA.SUWA.RIVERFLOW.2012-7.RGB
+	 type raster
+	 status on
+	 OFFSITE 255 255 255
+	 DATA "/www/ogc/apps/data/aea/suwa/riverflow/AEA.SUWA.RiverFlow.2012-7.tif"
+	 PROJECTION
+		"proj=tmerc"
+		"lat_0=54"
+		"lon_0=-150"
+		"k=0.9999"
+		"x_0=500000.0000000001"
+		"y_0=0"
+		"datum=NAD83"
+		"units=us-ft"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 GROUP "RiverFlow"
+
+	 PROCESSING "BANDS=1,2,3"
+
+	 METADATA
+		 WMS_TITLE "AEA SuWa RGB RiverFlow July 2012"
+		 WMS_ABSTRACT "One foot full color ortho imagery acquired on 26 and 27 July 2012, covering sections of the Susitna River Basin at flows of 22,200 cfs at Gold Creek Gage (USGS 15292000)  and 54,700 cfs at Sunshine Gage (USGS 15292780). Intended for geomorphological study."
+		 "wms_extent" "1585000.0 2882000.0 1635000.0 3142000.0"
+	 END
+END

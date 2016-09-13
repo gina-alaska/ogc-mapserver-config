@@ -1,0 +1,8 @@
+#for AEA/SUWA - data in Nad83AkZ4 - mjs
+#url is /aea/suwa/veg_map_sat
+
+MAP
+	include "defaults/aea.veg_map_sat.wms.default.includes.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.VEG_MAP_SAT.CIR.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.VEG_MAP_SAT.RGB.layer.map"
+END

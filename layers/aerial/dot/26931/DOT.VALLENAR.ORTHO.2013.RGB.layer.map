@@ -1,0 +1,28 @@
+LAYER
+	 name XXXXX
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/aerial/DOT/dot.valenar.ak1m.2013.tif"
+	 PROJECTION
+		"proj=omerc"
+		"lat_0=57"
+		"lonc=-133.6666666666667"
+		"alpha=-36.86989764583333"
+		"k=0.9999"
+		"x_0=5000000"
+		"y_0=-5000000"
+		"datum=NAD83"
+		"units=m"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 PROCESSING "BANDS=1,2,3"
+	 METADATA
+		 WMS_TITLE "XX fill me out XX"
+		 WMS_ABSTRACT "XX fill me out XX"
+		 "wms_extent" "933891.6008183123 388910.4003162347 941664.0008183122 399658.2003162438"
+	 END
+END

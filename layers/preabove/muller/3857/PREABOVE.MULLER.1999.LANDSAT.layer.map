@@ -1,0 +1,30 @@
+LAYER
+	 name PREABOVE.MULLER.LANDSAT.LAND_COVER
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/preabove/muller/preabove.muller.gm.1999.tif"
+	 PROJECTION
+		"proj=merc"
+		"a=6378137"
+		"b=6378137"
+		"lat_ts=0.0"
+		"lon_0=0.0"
+		"x_0=0.0"
+		"y_0=0"
+		"k=1.0"
+		"units=m"
+		"nadgrids=@null"
+		"wktext"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 GROUP "Arctic_Alaska"
+	 METADATA
+		 WMS_TITLE "Muller Land Cover"
+		 WMS_ABSTRACT "Landsat MSS Land Cover Data per 1999 publication by Muller"
+		 "wms_extent" "-18881299.861575373 10262076.098319508 -15404779.921521982 11737371.103762573"
+	 END
+END

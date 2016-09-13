@@ -1,0 +1,27 @@
+LAYER
+	 name AEA.SUWA.THERMAL.2012-10
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/aea/suwa/thermal/AEA.SUWA.Thermal.2012.tif"
+	 PROJECTION
+		"proj=tmerc"
+		"lat_0=54"
+		"lon_0=-150"
+		"k=0.9999"
+		"x_0=500000.0000000001"
+		"y_0=0"
+		"datum=NAD83"
+		"units=us-ft"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 GROUP "Thermal"
+	 METADATA
+		 WMS_TITLE "AEA Susitna River TIR October 2012"
+		 WMS_ABSTRACT "2.3 foot IR band colormapped ortho of Susitna River surface temperatures captured on 12 13 17 18 October.  Full dataset available on request."
+		 "wms_extent" "1610635.25 3046118.719710289 1903915.149999996 3230486.7197102867"
+	 END
+END

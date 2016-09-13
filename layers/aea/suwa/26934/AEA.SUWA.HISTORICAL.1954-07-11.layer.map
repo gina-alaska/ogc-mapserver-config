@@ -1,0 +1,27 @@
+LAYER
+	 name AEA.SUWA.HISTORICAL.1954-07-11
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/aea/suwa/historical/AEA.SUWA.Historical.1950s/suwa.historical.N83AK4.11JUL1954.tif"
+	 PROJECTION
+		"proj=tmerc"
+		"lat_0=54"
+		"lon_0=-150"
+		"k=0.9999"
+		"x_0=500000.0000000001"
+		"y_0=0"
+		"datum=NAD83"
+		"units=us-ft"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 GROUP "Historical"
+	 METADATA
+		 WMS_TITLE "AEA SuWa Historical Ortho 1954 July 11"
+		 WMS_ABSTRACT ".6 m pixel resolution panchromatic ortho-imagery covering sections of the Susitna River Basin acquired on 11 July 1954"
+		 "wms_extent" "1535000.0 2782000.0 1615000.0 2822000.0"
+	 END
+END

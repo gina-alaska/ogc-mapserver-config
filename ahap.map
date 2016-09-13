@@ -1,0 +1,11 @@
+#for ALCC AHAP - data in AA83 and N83AK4 - non-restricted datasets - mjs
+# url is /ahap
+
+MAP
+	include "defaults/ahap.wms.default.includes.map"
+	include "layers/ahap/32605/EPSCOR.NORTHERN.ORTHO.1979.layer.map"
+	include "layers/ahap/32605/EPSCOR.NORTHERN.ORTHO.1982.layer.map"
+	include "layers/ahap/32605/EPSCOR.KENAI.ORTHO.1978.layer.map"
+	include "layers/ahap/32605/EPSCOR.KENAI.ORTHO.1980.layer.map"
+	include "layers/ahap/32608/EPSCOR.SOUTHEAST.AHAP.1982.layer.map"
+END

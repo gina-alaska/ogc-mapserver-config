@@ -1,0 +1,29 @@
+LAYER
+	 name AEA.SUWA.URS-AERIAL.CIR.2013
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 TILEINDEX "/www/ogc/apps/data/gina/urs-trails/indexes/urs-trails.shp"
+	 TILEITEM "LOCATION"
+	 PROJECTION
+		"proj=tmerc"
+		"lat_0=54"
+		"lon_0=-150"
+		"k=0.9999"
+		"x_0=500000.0000000001"
+		"y_0=0"
+		"datum=NAD83"
+		"units=us-ft"
+		"no_defs"
+	 END
+	 GROUP "AEA-SUWA"
+	 PROCESSING "BANDS=4,1,2"
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 METADATA
+		 WMS_TITLE "AEA SuWa Trails Aerial Orthoimagery CIR 2013"
+		 WMS_ABSTRACT "Color Infrared (G,R,NIR) Ortho-rectified Trails Aerial Imagery"
+		 "wms_extent" "1744320.0 3145760.0000000005 2112319.999999999 3465760.0"
+	 END
+END

@@ -1,0 +1,31 @@
+#for AEA/SUWA - data in Nad83AkZ4  - mjs 
+# url is /aea/suwa
+
+MAP
+	include "defaults/aea.suwa.wms.default.includes.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.RIVERFLOW.2012-7.RGB.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.RIVERFLOW.2012-7.CIR.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.RIVERFLOW.2012-9.RGB.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.RIVERFLOW.2012-9.CIR.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.RIVERFLOW.2013-9.RGB.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.RIVERFLOW.2013-9.CIR.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.THERMAL.2012-10.layer.map" 
+	include "layers/aea/suwa/26934/AEA.SUWA.THERMAL_Low_Su.2013.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.THERMAL_Mid_Su.2013.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.HISTORICAL.1949-08.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.HISTORICAL.1951-07-03.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.HISTORICAL.1952-08-12.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.HISTORICAL.1952-09-02.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.HISTORICAL.1953-07-23.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.HISTORICAL.1953-07-25.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.HISTORICAL.1954-07-11.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.HISTORICAL.1983.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.RAPIDEYE.2011.RGB.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.RAPIDEYE.2011.CIR.layer.map"
+	include "layers/aea/suwa/26934/foo.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.ORTHO.2013.CIR.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.ORTHO.2013.RGB.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.URS-trails.CIR.2013.layer.map"
+        include "layers/aea/suwa/26934/AEA.SUWA.URS-trails.RGB.2013.layer.map"
+
+END

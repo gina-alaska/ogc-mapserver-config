@@ -1,0 +1,9 @@
+#for AEA/SUWA - data in UTM6-84, AA83  - mjs 
+# url is /preabove
+
+MAP
+	include "defaults/preabove.wms.default.includes.map"
+	include "layers/preabove/beechey/26934/PREABOVE.BEECHEY.1949.USGS-ORTHO.layer.map"
+	include "layers/preabove/beechey/32606/PREABOVE.BEECHEY.1979.CLASSIFIED.layer.map"
+	include "layers/preabove/muller/3338/PREABOVE.MULLER.1999.LANDSAT.layer.map"
+END

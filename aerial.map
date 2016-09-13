@@ -1,0 +1,17 @@
+#for misc. aerial imagery - data in N83AK3 - non-restricted datasets - mjs
+# url is /aerial
+
+MAP
+	include "defaults/aerial.wms.default.includes.map"
+	include "layers/acuasi/ortho/32606/ACUASI.FTRICH.ORTHO.2014.RGB.layer.map"
+	include "layers/aerial/dot/3338/DOT.JUNEAU.ORTHO.2014.RGB.layer.map"
+	include "layers/aerial/dot/3338/DOT.JUNEAU.ORTHO.2013.RGB.layer.map"
+	include "layers/aerial/dot/3338/DOT.KATLIAN.ORTHO.2013.CIR.layer.map"
+	include "layers/aerial/dot/3338/DOT.KATLIAN.ORTHO.2013.RGB.layer.map"
+	include "layers/aerial/dot/3338/DOT.NIBLACK.ORTHO.2014.CIR.layer.map"
+        include "layers/aerial/dot/3338/DOT.NIBLACK.ORTHO.2014.RGB.layer.map"
+        include "layers/aerial/dot/3338/DOT.VALLENAR.ORTHO.2013.CIR.layer.map"
+	include "layers/aerial/dot/3338/DOT.VALLENAR.ORTHO.2013.RGB.layer.map"
+	include "layers/aerial/usda-nrcs/26933/USDA-NRCS.DELTA.ORTHO.2013.CIR.layer.map"
+	include "layers/aerial/usda-nrcs/26933/USDA-NRCS.DELTA.ORTHO.2013.RGB.layer.map"
+END

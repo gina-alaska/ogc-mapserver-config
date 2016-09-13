@@ -1,0 +1,28 @@
+LAYER
+	 name AEA.SUWA.RAPIDEYE.2011.RGB
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/aea/suwa/rapideye/suwa.rapideye.N83Ak4.2011.tif"
+	 PROJECTION
+		"proj=tmerc"
+		"lat_0=54"
+		"lon_0=-150"
+		"k=0.9999"
+		"x_0=500000"
+		"y_0=0"
+		"datum=NAD83"
+		"units=m"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 GROUP "2011_RapidEye"
+	 PROCESSING "BANDS=3,2,1"
+	 METADATA
+		 WMS_TITLE "AEA SuWa RapidEye 2011 RGB"
+		 WMS_ABSTRACT "Color RGB 5m Ortho-rectified RapidEye Imagery"
+		 "wms_extent" "511230.0 953145.0 648715.0 1056075.0"
+	 END
+END

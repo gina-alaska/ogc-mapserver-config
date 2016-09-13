@@ -1,0 +1,30 @@
+LAYER
+	 name AKARISE.FAIRBANKS.ORI.2014
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/insar/akarise/ori.fairbanks.2014.gm.tif"
+	 PROJECTION
+		"proj=merc"
+		"a=6378137"
+		"b=6378137"
+		"lat_ts=0.0"
+		"lon_0=0.0"
+		"x_0=0.0"
+		"y_0=0"
+		"k=1.0"
+		"units=m"
+		"nadgrids=@null"
+		"wktext"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+     GROUP "AK-ArISE"
+	 METADATA
+		 WMS_TITLE "Fairbanks Ortho-rectified Intensity Mosaic"
+		 WMS_ABSTRACT "1.5 m pixel resolution airborne synthetic aperture radar intensity image collected 26 October 2014"
+		 "wms_extent" "-16466364.55827118 9543402.768184794 -16406778.571148133 9601311.765426062"
+	 END
+END

@@ -1,0 +1,8 @@
+#for AEA/SUWA - data in UTM6-84, AA83  - mjs 
+# url is /preabove
+
+MAP
+	include "defaults/nssi.wms.default.includes.map"
+	include "layers/nssi/land_classification/3338/NSSI.LANDCLASS.2013.layer.map"
+	include "layers/nssi/land_classification/3338/NSSI.LANDCLASS_LEGEND.2013.layer.map"
+END

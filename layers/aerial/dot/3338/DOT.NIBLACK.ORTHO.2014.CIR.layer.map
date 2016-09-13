@@ -1,0 +1,30 @@
+LAYER
+	 name DOT-RTR.NIBLACK.2014.CIR
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/aerial/DOT/dot.ortho.niblack.aa83.tif"
+	 PROJECTION
+		"proj=aea"
+		"lat_1=55"
+		"lat_2=65"
+		"lat_0=50"
+		"lon_0=-154"
+		"x_0=0"
+		"y_0=0"
+		"ellps=GRS80"
+		"towgs84=0,0,0,0,0,0,0"
+		"units=m"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+     GROUP "DOT-RTR"
+     PROCESSING "BANDS=4,1,2"
+	 METADATA
+		 WMS_TITLE "SOA DOT Roads to Resources 2014 Niblack Bokan CIR Orthoimagery"
+		 WMS_ABSTRACT ".3 m color infrared aerial orthoimagery collected in May 2014"
+		 "wms_extent" "1332996.3768051283 761630.1719563036 1381373.1484931693 821927.1484606116"
+	 END
+END

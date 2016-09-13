@@ -1,0 +1,28 @@
+LAYER
+	 name AEA.SUWA.HISTORICAL.1983
+	 type raster
+	 status on
+	 OFFSITE 0 0 0  
+	 TILEINDEX "/www/ogc/apps/data/aea/suwa/historical/indexes/AEA.SUWA.Historical.1983.shp"
+	 TILEITEM "LOCATION"
+	 PROJECTION
+		"proj=tmerc"
+		"lat_0=54"
+		"lon_0=-150"
+		"k=0.9999"
+		"x_0=500000.0000000001"
+		"y_0=0"
+		"datum=NAD83"
+		"units=us-ft"
+		"no_defs"
+	 END
+	 GROUP "Historical"
+
+	 
+
+	 METADATA
+		 WMS_TITLE "AEA SuWa Historical Ortho 1983"
+		 WMS_ABSTRACT "One foot panchromatic ortho imagery covering sections of the Susitna River Basin in 1983."
+		 "wms_extent" "1495000.0 2612000.0 2125000.0 3262000.0"
+	 END
+END

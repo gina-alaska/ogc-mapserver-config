@@ -1,0 +1,31 @@
+LAYER
+	 name PREABOVE.PRUDHOE.BAR.ORTHO
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/preabove/1949/preabove.USGS.gm.1949.vrt"
+	 PROJECTION
+		"proj=merc"
+		"a=6378137"
+		"b=6378137"
+		"lat_ts=0.0"
+		"lon_0=0.0"
+		"x_0=0.0"
+		"y_0=0"
+		"k=1.0"
+		"units=m"
+		"nadgrids=@null"
+		"wktext"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 GROUP "Prudhoe_Bay"
+	 METADATA
+		 WMS_TITLE "Prudhoe Bay 1949 BAR"
+		 WMS_ABSTRACT "1 foot pixel resolution panchromatic ortho imagery of Prudhoe Bay area"
+		 "wms_group_title"      "Prudhoe_Bay"
+		 "wms_extent" "-16737304.38837657 11114684.931811381 -16425134.56276441 11272380.712085383"
+	 END
+END

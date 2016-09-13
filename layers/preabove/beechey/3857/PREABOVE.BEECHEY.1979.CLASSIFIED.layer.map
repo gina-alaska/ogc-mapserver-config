@@ -1,0 +1,31 @@
+LAYER
+	 name PREABOVE.BEECHEY.LANDSAT.CLASSIFIED
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/preabove/beechey/preabove.beechey.gm.2013.tif"
+	 PROJECTION
+		"proj=merc"
+		"a=6378137"
+		"b=6378137"
+		"lat_ts=0.0"
+		"lon_0=0.0"
+		"x_0=0.0"
+		"y_0=0"
+		"k=1.0"
+		"units=m"
+		"nadgrids=@null"
+		"wktext"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 GROUP "Prudhoe_Bay"
+	 METADATA
+		 WMS_TITLE "Beechey Point 1979 Classified Landsat"
+		 WMS_ABSTRACT "Beechey Point Land Cover Classification: CRREL Report 87-5"
+		 "wms_group_title"      "Prudhoe_Bay"
+		 "wms_extent" "-16716569.617818655 11059059.111409687 -16361104.996772783 11411534.122522457"
+	 END
+END

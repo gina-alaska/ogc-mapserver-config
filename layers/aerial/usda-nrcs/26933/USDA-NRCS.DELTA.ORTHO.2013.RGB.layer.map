@@ -1,0 +1,28 @@
+LAYER
+	 name USDA-NRCS.DELTA.2013.RGB
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/aerial/USDA.NRCS.Big_Delta/usda-nrcs.delta.83ak3.2013.tif"
+	 PROJECTION
+		"proj=tmerc"
+		"lat_0=54"
+		"lon_0=-146"
+		"k=0.9999"
+		"x_0=500000"
+		"y_0=0"
+		"ellps=GRS80"
+		"units=m"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 GROUP "USDA-NRCS"
+	 PROCESSING "BANDS=1,2,3"
+	 METADATA
+		 WMS_TITLE "USDA NRCS Big Delta Aerial RGB Orthoimagery"
+		 WMS_ABSTRACT ".6 m true color orthoimagery collected and processed by Quantum Spatial"
+		 "wms_extent" "487722.0 1072533.0 574468.2 1155751.8"
+	 END
+END

@@ -1,0 +1,29 @@
+LAYER
+	 name DOT-RTR.JUNEAU.2014.RGB
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/aerial/DOT/dot.ortho.juneau.aa83.vrt"
+	 PROJECTION
+		"proj=aea"
+		"lat_1=55"
+		"lat_2=65"
+		"lat_0=50"
+		"lon_0=-154"
+		"x_0=0"
+		"y_0=0"
+		"ellps=GRS80"
+		"towgs84=0,0,0,0,0,0,0"
+		"units=m"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 GROUP "DOT-RTR"
+	 METADATA
+		 WMS_TITLE "SOA DOT Roads to Resources 2013-14 Juneau RGB Orthoimagery"
+		 WMS_ABSTRACT ".06 m true color aerial ortho-imagery collected in 2013 of Berners Bay and in 2014 of the east bank of the Lynn Canal"
+		 "wms_extent" "1047440.9461109191 1124842.1358667426 1086851.9738226854 1175620.6881485"
+	 END
+END

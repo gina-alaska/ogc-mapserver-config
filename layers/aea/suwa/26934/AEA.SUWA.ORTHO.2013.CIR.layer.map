@@ -1,0 +1,28 @@
+LAYER
+	 name AEA.SUWA.AERIAL-ORTHO.2013.CIR
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/aea/suwa/veg_map_aerial/suwa.abr_ortho.N83Ak4.tif"
+	 PROJECTION
+		"proj=tmerc"
+		"lat_0=54"
+		"lon_0=-150"
+		"k=0.9999"
+		"x_0=500000.0000000001"
+		"y_0=0"
+		"ellps=GRS80"
+		"units=us-ft"
+		"no_defs"
+	 END
+	 GROUP "2013_Ortho_CIR"
+	 PROCESSING "BANDS=4,1,2"
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 METADATA
+		 WMS_TITLE "AEA SuWa Aerial Orthoimagery 2013 CIR"
+		 WMS_ABSTRACT "Color infrared (NIR,R,G) Ortho-rectified Aerial Imagery"
+		 "wms_extent" "1744320.0 3145760.0 2112320.0 3465760.0"
+	 END
+END

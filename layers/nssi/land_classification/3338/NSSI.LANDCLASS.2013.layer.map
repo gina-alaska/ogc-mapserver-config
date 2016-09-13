@@ -1,0 +1,38 @@
+LAYER
+	 name NSSI.LANDCLASS.2013
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/gina/nssi/nssi.landcoverclass.aa.2013.tif"
+	 PROJECTION
+		"proj=aea"
+		"lat_1=55"
+		"lat_2=65"
+		"lat_0=50"
+		"lon_0=-154"
+		"x_0=0"
+		"y_0=0"
+		"ellps=GRS80"
+		"towgs84=0,0,0,0,0,0,0"
+		"units=m"
+		"no_defs"
+	 END
+	 GROUP Land_Classification_Maps
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 METADATA
+		 WMS_TITLE "NSSI Land Classification Map 2013"
+		 WMS_ABSTRACT "30 m pixel resolution landcover map of the North Slope comprised of Landsat Thematic Mapper imagery (acquired 2005-2010) and existing BLM (1992-1995) and AKNHP data"
+		 "wms_extent" "-531315.0000000008 2005064.9999999974 533744.9999999997 2380005.000000005"
+	 END
+	 CLASS
+		NAME "Land Classification Key"
+		KEYIMAGE "/www/ogc/apps/data/gina/nssi/legend_ver2.gif"
+		LABEL
+      			TYPE BITMAP
+      			SIZE MEDIUM
+      			COLOR 0 0 255
+    		END
+	 END
+END

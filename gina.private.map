@@ -1,0 +1,18 @@
+#for GINA - data in AA83 - restricted datasets - mjs
+# url is /gina.private
+
+MAP
+	include "defaults/gina.private.wms.default.includes.map"
+	include "layers/gina.private/glba/3338/NPS-GLBA.SAT.2012.RGB.layer.map"
+	include "layers/sdmi/source/3338/SPOT5.SDMI.L1A.GAP.MS.layer.map"
+	#include "layers/gina.private/nssi/3338/NSSI.LANDCLASS.2013.layer.map"
+	#include "layers/gina.private/nssi/3338/NSSI.LANDCLASS_LEGEND.2013.layer.map"
+	#include "layers/aerial/dot/26931/DOT.VALLENAR.ORTHO.2013.RGB.layer.map"
+	#include "layers/gina.private/aea-suwa/26934/AEA.SUWA.ABR-AERIAL.RGB.2013.layer.map"
+	#include "layers/gina.private/aea-suwa/26934/AEA.SUWA.ABR-AERIAL.CIR.2013.layer.map"
+	#include "layers/gina.private/aea-suwa/26934/AEA.SUWA.URS-trails.CIR.2013.layer.map"
+	#include "layers/gina.private/aea-suwa/26934/AEA.SUWA.URS-trails.RGB.2013.layer.map"
+	#include "layers/gina.private/test.cir.layer.map"
+	#include "layers/epscor/sctc/26934/EPSCOR.KPB.ORTHO.2013.RGB.layer.map"
+	#include "layers/epscor/sctc/26934/EPSCOR.KPB.ORTHO.2013.CIR.layer.map"
+END

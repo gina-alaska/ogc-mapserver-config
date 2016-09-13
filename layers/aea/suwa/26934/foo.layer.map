@@ -1,0 +1,24 @@
+    LAYER
+        name North_Susitna_rgb
+        type raster
+        status on
+        OFFSITE 0 0 0
+        #TILEINDEX "/www/matsu/apps/data/matsu/GINA.Imagery/indexs/North_Susitna.rgb.shp"
+        DATA "/www/matsu/apps/data/matsu/GINA.Imagery/update/North_Susitna.tif"
+        PROCESSING "BANDS=1,2,3"
+
+        include "includes/projections/102634.include.map"
+
+        include "includes/defaults/layer_debug.include.map"
+        include "includes/defaults/layer_extra.include.map"
+
+        GROUP "RGB"
+
+        METADATA
+                WMS_TITLE "North Susitna rgb"
+                WMS_ABSTRACT "Provided by the Matanuska-Susitna Borough. Details of the project available at http://matsu.gina.alaska.edu. Unrestricted data. Support provided by GINA (http://gina.alaska.edu)"
+                "wms_group_title"       "RGB"     
+        END
+
+    END
+

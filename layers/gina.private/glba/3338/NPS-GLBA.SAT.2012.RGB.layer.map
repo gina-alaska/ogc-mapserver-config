@@ -1,0 +1,28 @@
+LAYER
+	 name NPS-GLBA.SAT-ORTHO.2012.RGB
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/gina/glba/rgb-mosaic/mosaic.vrt"
+	 PROJECTION
+		"proj=aea"
+		"lat_1=55"
+		"lat_2=65"
+		"lat_0=50"
+		"lon_0=-154"
+		"x_0=0"
+		"y_0=0"
+		"datum=NAD83"
+		"units=m"
+		"no_defs"
+	 END
+	 GROUP "Glacier.Bay.National.Park"
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 METADATA
+		 WMS_TITLE "Glacier Bay National Park RGB 2012"
+		 WMS_ABSTRACT ".5 m pixel resolution true color (R,G,B) pan-sharpened ortho-rectified satellite imagery"
+		 "wms_extent" "857182.75 1031990.25 1081585.25 1172488.75"
+	 END
+END

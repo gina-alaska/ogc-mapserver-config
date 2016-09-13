@@ -1,0 +1,23 @@
+LAYER
+	 name ACUASI.AERIAL-ORTHO.FTRICH.2014.RGB
+	 type raster
+	 status on
+	 OFFSITE 0 0 0
+	 DATA "/www/ogc/apps/data/acuasi/ortho/ortho.acuasi.ftrich.140328.utm6.tif"
+	 PROJECTION
+		"proj=utm"
+		"zone=6"
+		"datum=WGS84"
+		"units=m"
+		"no_defs"
+	 END
+	# set if needed.. values need to be calcuated carefully..
+	# MINSCALE 20000
+	# MAXSCALE 5000000
+	 GROUP "ACUASI"
+	 METADATA
+		 WMS_TITLE "ACUASI Ft Richardson Aerial-Orthoimagery 2014"
+		 WMS_ABSTRACT "True color ortho-imagery of Eagle River Bridge Rte Bravo Fort Richardson acquired by ACUASI UAS 28 March 2014."
+		 "wms_extent" "356041.0000000051 6800272.47187671 356122.62938000506 6800461.899296708"
+	 END
+END

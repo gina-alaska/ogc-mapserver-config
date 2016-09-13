@@ -1,0 +1,7 @@
+#for INSAR - data in gm - non-restricted datasets - mjs
+# url is /insar
+
+MAP
+	include "defaults/insar.wms.default.includes.map"
+	include "layers/insar/akarise/3857/AKARISE.FAIRBANKS.ORI.2014.layer.map"
+END

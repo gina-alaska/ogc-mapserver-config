@@ -1,0 +1,8 @@
+#for AEA/SUWA - data in Nad83AkZ4  - mjs 
+# url is /aea/suwa/rapideye
+
+MAP
+	include "defaults/aea.rapidfire.wms.default.includes.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.RAPIDEYE.CIR.layer.map"
+	include "layers/aea/suwa/26934/AEA.SUWA.RAPIDEYE.RGB.layer.map"
+END
